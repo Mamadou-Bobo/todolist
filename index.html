@@ -1,0 +1,55 @@
+<!DOCTYPE html lang="en">
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TODOLIST</title>
+
+        <!-- google font link -->
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+
+        <!-- css -->
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+
+        <div class="main">
+            <div class="date-container">     
+                <h3>TODO LIST</h3>
+                <div class="content">
+                    <h1 id="date"></h1>
+                    <h2 id="task"></h2>
+                    <h1 id="day"></h1>
+                </div> 
+            </div>
+    
+            <div class="capture">
+                <input maxlength="30" id="capture" type="text" placeholder="Enter a task">
+                <button id="btn">Add</button>
+            </div>
+            <div class="alert-message" id="alert-message">
+                <hr id="hr">
+                <div class="alert-message-content">
+                    <i class="fas fa-info"></i>
+                    <h1>Enter a task</h1>
+                </div>
+            </div>
+    
+            <div class="container">
+                <div id="display" class="display">
+                </div>
+            </div>
+        </div>
+
+        
+
+
+        <!-- font awesome script -->
+        <script src="https://use.fontawesome.com/releases/v5.14.0/js/all.js" data-auto-replace-svg="nest"></script>
+        
+        <!-- java script -->
+        <script src="app.js"></script>
+    </body>
+
+</html>
